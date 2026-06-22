@@ -1,2 +1,2 @@
-# treinamentopygame
-Pequeno treinamento sobre PyGame, OpenCV, NumPy e MediaPipe
+# Treinamento sobre PyGame
+Pequeno treinamento sobre PyGame, OpenCV, NumPy e MediaPipe.
