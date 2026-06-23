@@ -71,8 +71,9 @@ options = PoseLandmarkerOptions(
     min_tracking_confidence=0.5,
 )
 
-# Inicializa Captura de Vídeo
+# Inicializa Captura de Vídeo OpenCV (0 para webcam, ou caminho para vídeo)
 cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture("video/video_para_testar_mediapipe.mp4")
 clock = pygame.time.Clock()
 
 with PoseLandmarker.create_from_options(options) as landmarker:
